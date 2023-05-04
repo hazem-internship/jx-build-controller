@@ -52,7 +52,7 @@ env:
 #     name: env-secrets
 # - configMapRef:
 #     name: env-configmap
-envFrom: []
+#envFrom: []
 
 # define environment variables that will be stored in a secret named 'jx-build-controller-env' and populated as env vars on the deployment
 #
@@ -60,12 +60,12 @@ envFrom: []
 # 
 # example
 #
-# envSecrets:
-#   AWS_ACCESS_KEY_ID: xxx
-#   AWS_SECRET_ACCESS_KEY: yyy
+envSecrets:
+   AWS_ACCESS_KEY_ID: Rp0ABzsM9ILi0i3k
+   AWS_SECRET_ACCESS_KEY: 5EKtsOTng9TLM67vIvYq4JniVNp5gWEG
 #   AWS_CA_BUNDLE: /config/ca-certificates.crt (when using a private s3 compatible repo with self signed cert)
 #
-envSecrets: {}
+#envSecrets: {}
 
 clusterrole:
   enabled: true

@@ -65,7 +65,7 @@ env:
   #AWS_SECRET_ACCESS_KEY: 5EKtsOTng9TLM67vIvYq4JniVNp5gWEG
 #   AWS_CA_BUNDLE: /config/ca-certificates.crt (when using a private s3 compatible repo with self signed cert)
 #
-envSecrets: {}
+envSecrets: 
   AWS_ACCESS_KEY_ID: GZCV5MIBHAV0050W
   AWS_SECRET_ACCESS_KEY: EOFJBMSQVQY0MESDFVG0ZXVVHTLPVCUW
 
